@@ -3,19 +3,20 @@
     padding: 0;
     margin: 0 auto;
 }
+
 body {
     background-color: #edf1f6;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.Ativo{
-    background-color: rgba(53, 173, 113, 0.5); 
+.Ativo {
+    background-color: rgba(53, 173, 113, 0.5);
     border-radius: 5px;
 }
 
 
-h1{
+h1 {
     display: flex;
     color: #40513b;
     align-items: center;
@@ -25,13 +26,13 @@ h1{
     font-weight: bold;
 }
 
-.texto{
+.texto {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    color:#609966;
+    color: #609966;
     line-height: 1.5;
-    
+
 }
 
 #Edit {
@@ -42,9 +43,9 @@ h1{
 }
 
 #Edit *[class^="num"] {
-   color:  #40513b;
-   font-weight: bold;
-  }
+    color: #40513b;
+    font-weight: bold;
+}
 
 .titulo {
     display: flex;
@@ -61,34 +62,15 @@ h1{
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    animation: mudar-cor 5s linear alternate, typing 4s steps(30, end);
-}
-
-@keyframes mudar-cor {
-    from {
-        color: white;
-    }
-
-    to {
-        color: black;
-    }
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
-    }
 }
 
 
-.PG{
+
+
+.PG {
     list-style: none;
     display: table-cell;
-    float:right;
+    float: right;
     padding: 0px;
     padding: 0;
     margin: 0;
@@ -137,7 +119,7 @@ h1{
     margin-top: 20px;
     bottom: 25px;
     margin-left: 10px;
-    
+
 }
 
 .caixatxt2 {
@@ -208,7 +190,7 @@ h1{
     position: relative;
     margin-top: 25px;
     bottom: 25px;
-    
+
 }
 
 .Rio10 {
@@ -218,11 +200,11 @@ h1{
     margin-left: 10px;
 }
 
-.Rio20{
+.Rio20 {
     position: relative;
     margin-top: 32px;
     bottom: 35px;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .txt4 {
@@ -328,9 +310,9 @@ li {
     background-color: #555;
 }
 
-#menu-H{
+#menu-H {
     list-style: none;
-    background-color: #40513b; 
+    background-color: #40513b;
     padding: 0;
 }
 
@@ -355,19 +337,19 @@ li {
 }
 
 #menu-H li {
-    display: inline;  
+    display: inline;
 }
 
-#menu-H ul li a{
+#menu-H ul li a {
     color: rgb(255, 255, 255);
     padding: 20px;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
 
-   }
+}
 
-#menu-H ul li a:hover{
+#menu-H ul li a:hover {
     background-color: #609966;
 
 }
@@ -377,7 +359,7 @@ li {
     padding: 0;
     position: absolute;
     left: 90%;
-   
+
 }
 
 .right {
@@ -393,9 +375,9 @@ figcaption {
     font-size: 90px;
     margin-bottom: 10px;
     text-align: left;
-  }
+}
 
-  figcaption {
+figcaption {
     font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 10px;
@@ -412,5 +394,5 @@ figcaption {
     text-align: center;
     padding: 20px;
     animation: mudar-cor 5s linear alternate, typing 4s steps(30, end);
-    
-  }
+
+}
